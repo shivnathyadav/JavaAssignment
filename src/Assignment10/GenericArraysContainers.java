@@ -19,7 +19,7 @@ class SList<T>{
     SList(){
         this.head= null;
     }
-    SList(String data){
+    SList(T data){
         this.head =new  Node(data);
 
     }
